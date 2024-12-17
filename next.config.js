@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
-
+const nextConfig = {
+    images: {
+        domains: ['glifruitai.sitecoresandbox.cloud', 'api.qrserver.com'],
+        },
+  }
+  
+  module.exports = nextConfig

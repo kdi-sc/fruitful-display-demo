@@ -36,7 +36,7 @@ export default function Page() {
       <div className="absolute bottom-0 right-0 w-[60%] h-[60%]">
         <div className="relative w-full h-full">
           <Image
-            src="https://glifruitai.sitecoresandbox.cloud/api/public/content/7bf65f1a2e5e4aea94d130a0f4961104?v=06cc1148"
+            src="https://glifruitai.sitecoresandbox.cloud/api/public/content/7bf65f1a2e5e4aea94d130a0f4961104?v=06cc1148?height=600&width=800"
             alt="24 pack of powerful bars"
             width={800}
             height={600}
@@ -49,8 +49,8 @@ export default function Page() {
       {/* QR Code */}
       <div className="absolute bottom-8 right-8 bg-white p-4 rounded-lg">
         <Image
-          src="/placeholder.svg?height=100&width=100"
-          alt="QR Code"
+          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/powerful-bars"
+          alt="QR Code for Powerful Bars"
           width={100}
           height={100}
           className="w-24 h-24"
