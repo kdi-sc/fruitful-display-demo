@@ -36,7 +36,7 @@ export default function Page() {
       <div className="absolute bottom-0 right-0 w-[60%] h-[60%]">
         <div className="relative w-full h-full">
           <Image
-            src="/placeholder.svg?height=600&width=800"
+            src="https://glifruitai.sitecoresandbox.cloud/api/public/content/7bf65f1a2e5e4aea94d130a0f4961104?v=06cc1148"
             alt="24 pack of powerful bars"
             width={800}
             height={600}
